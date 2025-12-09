@@ -7,7 +7,7 @@ It is based on **Xposed / LSPosed** and deeply integrates with **OkHttp**, featu
 
 ## ✨ Key Features
 
-### 🔗 OkHttp 3/4 Request Interception
+### 🔗 OkHttp Request Interception
 Dexterceptor integrates into the application's networking stack and provides real-time access to:
 
 - full request URL  
@@ -20,8 +20,7 @@ Dexterceptor integrates into the application's networking stack and provides rea
 ## 🧬 Request and Response Modification Rules
 
 A flexible rule system enables automatic transformation of network traffic:
-
-- header replacement  
+  
 - URL rewriting  
 - request and response body modification  
 
