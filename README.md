@@ -75,4 +75,19 @@ Dexterceptor is evolving into a **universal runtime inspector for Android applic
 - ✔️ SSL bypass  
 - ✔️ EventBusRx for transferring large logs between processes  
 - ⏳ system method interception (`setText`, SQLite, Binder)   
-- ⏳ advanced rule/script editor  
+- ⏳ advanced rule/script editor
+
+- ## 📸 Screenshots
+
+
+
+
+<img width="324" height="693" alt="image" src="https://github.com/user-attachments/assets/9e59d8c0-64c2-4354-bf7c-01f2a46793e3" /> <img width="324" height="693" alt="image" src="https://github.com/user-attachments/assets/1f7f3a7d-e81e-4606-8ccc-5d8b67b7df0b" />
+
+<img width="324" height="693" alt="image" src="https://github.com/user-attachments/assets/bb4571fb-fc34-4488-b2c6-619e0cd4516b" /> <img width="324" height="693" alt="image" src="https://github.com/user-attachments/assets/1c2e1812-355a-47ba-bce0-6f23940cc2f0" />
+
+
+
+### Spoofing
+
+<img width="324" height="693" alt="image" src="https://github.com/user-attachments/assets/77e38a5e-1f95-4a24-b4b4-4fed996f3a69" /> <img width="324" height="693" alt="image" src="https://github.com/user-attachments/assets/838021fb-f2b5-47d5-9451-336dce8f246b" /> <img width="324" height="693" alt="image" src="https://github.com/user-attachments/assets/17c373c8-b0d4-494d-a6b0-518d11e55dc0" />
