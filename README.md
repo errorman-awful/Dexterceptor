@@ -1,19 +1,27 @@
-# 🔥 Dexterceptor — Universal Interceptor for Requests and Runtime Calls on Android
+# 🔥 Dexterceptor — Dex inspector and okhttp calls interceptor
 
-Dexterceptor is a powerful tool for developers and researchers designed to **intercept HTTP(S) requests directly inside Android applications**, even when they are obfuscated.  
-It is based on **Xposed / LSPosed** and deeply integrates with **OkHttp**, featuring a built-in **SSL bypass**, a rule system, and an extensible architecture for future interception types.
+Dexterceptor is a powerful tool for developers and researchers designed to **intercept HTTP(S) requests directly inside Android applications**, **search and inspect source code of any app**,**installing dynamic Xposed hooks**,track its calls and more
 
 ---
 
 ## ✨ Key Features
 
-### 🔗 OkHttp Request Interception
+
+### 🔗 OkHttp library
 Dexterceptor integrates into the application's networking stack and provides real-time access to:
 
 - full request URL  
 - request and response headers  
 - request and response bodies  
 - automatic **cURL generation** for Windows CMD, PowerShell, and Unix shell environments  
+
+## 🖥️ UI Capabilities
+
+- Darcula-style dark theme  
+- real-time logging without delays   
+- JSON syntax highlighting   
+- filtering, search, sorting  
+- rule editor with regex highlighting  
 
 ---
 
@@ -40,44 +48,13 @@ This enables full visibility of traffic in external tools such as:
 
 ---
 
-## 🧰 Native Runtime Call Inspector (Upcoming)
+## 🧰 Dex inspector
 
-The architecture is designed for future extensibility.  
-Planned capabilities include interception of:
+- search fields,methods,classes,specific code by templates like setText or su check and telemetry  
+- Dynamic hooks on any method with call log    
 
-- method calls such as `setText()`  
-- arbitrary Java/Kotlin methods  
-- SQLite I/O  
-- IPC calls  
-- SharedPreferences access  
-- Dex-level functions, even in heavily obfuscated applications  
-
-Dexterceptor is evolving into a **universal runtime inspector for Android applications**.
-
----
-
-## 🖥️ UI Capabilities
-
-- Darcula-style dark theme  
-- real-time logging without delays   
-- JSON syntax highlighting   
-- filtering, search, sorting  
-- rule editor with regex highlighting  
-
----
-
-## 🏗️ Project Status
-
-- ✔️ OkHttp interception  
-- ✔️ HTTP data viewing and storage  
-- ✔️ request/response modification  
-- ✔️ SSL bypass  
-- ✔️ EventBusRx for transferring large logs between processes  
-- ⏳ system method interception (`setText`, SQLite, Binder)   
-- ⏳ advanced rule/script editor
-
-- ## 📸 Screenshots
-
+![tANsy4C1eqS1AyMUvsz02hqlz2XNrgFxy9oxCuapeUg1c](https://github.com/user-attachments/assets/bb349455-d98f-482e-bb97-045424c3b904) ![tANsvFUib9vu5aA8UAxjZ0z0IiA0xavv05lEz0jaiKRwC](https://github.com/user-attachments/assets/a82645af-55d1-40a3-b0e7-cd7eb03b70fc)
+![tANsuCOZz0rV75agu6MjAV6oAGiz2xavPmTJeYz0iusExF](https://github.com/user-attachments/assets/cdcddf2e-2960-429f-b434-930fe5984e9b)![tANsxBKz0EBSXQKo40PrsvvoAGiVhCz0JXM15l091vMdP](https://github.com/user-attachments/assets/457bc30a-ff5f-44ba-bbb7-9f8c98404ef5)
 
 
 
